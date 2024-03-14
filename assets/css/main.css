@@ -5,8 +5,8 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700");
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @media print {
@@ -95,7 +95,7 @@
 /* line 21, ../sass/bootstrap/_reboot.scss */
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: WorkSans,WorkSans,sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -121,7 +121,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 /* line 52, ../sass/bootstrap/_reboot.scss */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, WorkSans,sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -5377,7 +5377,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, WorkSans,sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -5493,7 +5493,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, WorkSans,sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -11494,7 +11494,7 @@ html.mm-opening .mm-slideout {
 /* line 14, ../sass/_partials/_theme.scss */
 body {
   background: #f8f8f8;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", WorkSans,sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 0.875rem;
   line-height: 1.7;
@@ -11524,7 +11524,7 @@ a:hover, .btn:hover {
 /* line 31, ../sass/_partials/_theme.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", WorkSans,sans-serif;
   color: #151e25;
   font-weight: 500;
 }
@@ -11968,7 +11968,7 @@ html.swipebox-html.swipebox-touch {
   color: white !important;
   font-size: 15px;
   line-height: 43px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, WorkSans,sans-serif;
 }
 
 /*!
@@ -15706,7 +15706,7 @@ header .mobile-nav:hover {
   font-size: 5.5rem;
   line-height: 1.2;
   padding-bottom: 60px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", WorkSans,sans-serif;
   position: relative;
 }
 /* line 610, ../sass/main.scss */
